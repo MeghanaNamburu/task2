@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+.main {
+    width: 100%;
+    background: url("back.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    position: relative;
+    font-family: sans-serif;
+}
+
+.nav {
+    width: 86%;
+    display: flex;
+    margin: auto;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul {
+    margin-left: 55%;
+    margin-top: 2%;
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 16px;
+}
+
+ul li a {
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color:#fff;
+    margin-top: -3%;
+}
+
+ul li a:hover{
+    color:blueviolet;
+}
+
+.data{
+    margin-left: 7%;
+    margin-top: 6%;
+}
+
+.data h3{
+    letter-spacing: 1px;
+    line-height: 24px;
+}
+
+.image{
+    width:30%;
+    height: 50%;
+    position: absolute;
+    right:100px;
+    bottom: 70px;
+}
+
+.image img{
+    position: absolute;
+    height: 140%;
+    left: 40%;
+    transform: translate(-45%);
+    bottom:0;
+}
+
+.about {
+    width: 100%;
+    background: url("back1.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 60%;
+    position: relative;
+    font-family: sans-serif;
+}
+
+.data1{
+    margin-left: 7%;
+}
+
+.mylist{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.mylist li{
+    padding:10px;
+    display: block;
+}
+
+#skills {
+    width: 100%;
+    background: url("back1.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 43%;
+    position: relative;
+    font-family: sans-serif;
+}
+
+#certi{
+    width: 100%;
+    background: url("back1.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 50%;
+    position: relative;
+    font-family: sans-serif;
+}
+
+#contact{
+    width: 100%;
+    background: url("back1.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 30%;
+    position: relative;
+    font-family: sans-serif;
+}
