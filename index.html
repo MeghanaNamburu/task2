@@ -1,79 +1,85 @@
+<!DOCTYPE html>
 <html>
-    <head>
-        <title>My Portfolio</title>
-        <link rel="stylesheet" href="styles.css">
-    </head>
-    <body>
-        <div class="main">
-            <div class="nav">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#about">Projects & Internships</a></li>
-                    <li><a href="#certi">My Certifications</a></li>
-                    <li><a href="#contact">Connect</a></li>
-                </ul>
-            </div>
+<head>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="nav">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#about">Projects &amp; Internships</a></li>
+            <li><a href="#certi">My Certifications</a></li>
+            <li><a href="#contact">Connect</a></li>
+        </ul>
+    </nav>
 
+    <header class="main">
+        <div class="container">
             <div class="data">
                 <h1>Hi, I'm Meghana.</h1>
-                <h3>pursuing Bachelor of Technology in the stream of Information Technology.</h3>
+                <h3>Pursuing Bachelor of Technology in the stream of Information Technology.</h3>
                 <h3>I seek challenging opportunities where I can fully use my skills</h3>   
                 <h3>for the success of the organization.</h3><br>
-                <h2>View and download my resume here -- 
-                <button onclick="window.open('Resume.pdf','_blank')" style="color:#331b5c;width:100px;height:30px;border:2px solid white;font-size:16px;font-weight:bold;cursor:pointer;border-radius:10px">RESUME</button>
+                <h2>View and download my resume here --
+                    <button onclick="window.open('Resume.pdf','_blank')">RESUME</button>
                 </h2>
             </div>
-
             <div class="image">
-                <img src="pic.jpg" class="pic">
-            </div>
-
-
-        </div>
-
-        <div id="skills">
-            <br><br>
-            <div class="data1">
-            <h1>Skills</h1><br>
-            <h3>Java</h3><br>
-            <h3>Data Structures</h3><br>
-            <h3>Database Management System(MySQL)</h3><br>
-            <h3>HTML, CSS, JavaScript, PHP</h3><br>
-            <h3>Python</h3><br>
+                <img src="pic.jpg" alt="Profile Picture">
             </div>
         </div>
+    </header>
 
-        <div class="about" id="about">
-            <br><br>
-            <div class="data1">
-                <h2>Projects</h2><br>
-                <h3><a href="https://drive.google.com/file/d/1-TeuAxDo-nP1MyzbQ8IhW1VV8w__jyky/view?usp=sharing">Social Transport Website</a></h3><br>
-                <h3><a href="https://drive.google.com/file/d/1guVHUI9yZKxf5Ls9bZhzWaN5_fvCKBxg/view?usp=sharing">Photo Editor App</a></h3><br>
-                <h2>Internships</h2><br>
-                <h3>Salesforce Developer Virtual Internship (April - May 2023) - <a href="https://drive.google.com/file/d/1alzwBpnPTPmuboodOnLsLtvA5_qlNLlF/view?usp=sharing" style="color:greenyellow">view certificate</a></h3><br>
-                <h3>Web Development and Designing Virtual Internship - OASIS INFOBYTE (March - April 2023) - <a href="https://drive.google.com/file/d/14AoXmoLgFcnuVF7ffWYMgD9BbIDzBD2x/view?usp=sharing" style="color:greenyellow">view certificate</a></h3><br>
+    <section id="skills" class="section">
+        <div class="c1">
+            <h1>Skills</h1>
+            <div>
+            <ul class="mylist">
+                <li>Java</li>
+                <li>Data Structures</li>
+                <li>Database Management System (MySQL)</li>
+                <li>HTML, CSS, JavaScript, PHP</li>
+                <li>Python</li>
+            </ul>
             </div>
         </div>
+    </section>
 
-
-        <div id="certi">
-            <br><br>
-            <div class="data1">
-            <h1>Certifications</h1><br>
-            <h3>JPMorgan Software Engineering Virtual Experience Program - Forage - <a href="https://drive.google.com/file/d/1wA9dbuzPTG5UUJSztrE7kI8NLtFms-3F/view?usp=sharing" style="color:greenyellow">view certificate</a></h3><br>
-            <h3>Data Structures And Algorithms Using Java - NPTEL - <a href="https://drive.google.com/file/d/1_PzJLIUM-3W7100wAsDcw4P9Kos-ncCM/view?usp=drive_linkhttps://drive.google.com/file/d/1wA9dbuzPTG5UUJSztrE7kI8NLtFms-3F/view?usp=sharing" style="color:greenyellow">view certificate</a></h3><br>
-            <h3>Programming Using Java - Infosys - <a href="https://drive.google.com/file/d/1Lu3nV5EC9WwN6VjgZUaqRmd-GMPr6lrV/view?usp=sharing" style="color:greenyellow">view certificate</a></h3><br>
-            <h3>JavaScript(Basic) - HackerRank - <a href="https://drive.google.com/file/d/1Ht_Bj4AKY5nyfDZq7lcZ42dh9Qd_ib8F/view?usp=sharing" style="color:greenyellow">view certificate</a></h3><br>
-            <h3>Basics Of Python - Infosys - <a href="https://drive.google.com/file/d/1_R7hWcr5UTwsfQ6B5QbGpuvE_KMMkSTK/view?usp=sharing" style="color:greenyellow">view certificate</a></h3><br>
-            <h3>Problem Solving Through Programming In C - NPTEL - <a href="https://drive.google.com/file/d/1mE-e3dGz4_Nnowj6fdfwOnjiiQig_xY8/view?usp=sharing" style="color:greenyellow">view certificate</a></h3><br>
-            </div>
+    <section id="about" class="section">
+        <div class="c1">
+            <h1>Projects</h2>
+            <ul class="mylist">
+                <li><a href="https://drive.google.com/file/d/1-TeuAxDo-nP1MyzbQ8IhW1VV8w__jyky/view?usp=sharing" style="color:whitesmoke">Social Transport Website</a> </li>
+                <li><a href="https://drive.google.com/file/d/1guVHUI9yZKxf5Ls9bZhzWaN5_fvCKBxg/view?usp=sharing" style="color:whitesmoke">Photo Editor App</a></li>
+            </ul>
+            <br>
+            <h1>Internships</h2>
+            <ul class="mylist">
+                <li>Salesforce Developer Virtual Internship (April - May 2023) - <a href="https://drive.google.com/file/d/1alzwBpnPTPmuboodOnLsLtvA5_qlNLlF/view?usp=sharing" style="color:greenyellow">view certificate</a></li>
+                <li>Web Development and Designing Virtual Internship - OASIS INFOBYTE (March - April 2023) - <a href="https://drive.google.com/file/d/14AoXmoLgFcnuVF7ffWYMgD9BbIDzBD2x/view?usp=sharing" style="color:greenyellow">view certificate</a></li>
+            </ul>
         </div>
+    </section>
 
-        <div id="contact">
-            <br><br>
-            <div class="data1">
-            <h1>Connect:</h1><br>
+    <section id="certi" class="section">
+        <div class="c1">
+            <h1>Certifications</h1>
+            <ul class="mylist">
+                <li>JPMorgan Software Engineering Virtual Experience Program - Forage - <a href="https://drive.google.com/file/d/1wA9dbuzPTG5UUJSztrE7kI8NLtFms-3F/view?usp=sharing" style="color:greenyellow">view certificate</a></li>
+                <li>Data Structures And Algorithms Using Java - NPTEL - <a href="https://drive.google.com/file/d/1_PzJLIUM-3W7100wAsDcw4P9Kos-ncCM/view?usp=drive_linkhttps://drive.google.com/file/d/1wA9dbuzPTG5UUJSztrE7kI8NLtFms-3F/view?usp=sharing" style="color:greenyellow">view certificate</a></li>
+                <li>Programming Using Java - Infosys - <a href="https://drive.google.com/file/d/1Lu3nV5EC9WwN6VjgZUaqRmd-GMPr6lrV/view?usp=sharing" style="color:greenyellow">view certificate</a></li>
+                <li>JavaScript(Basic) - HackerRank - <a href="https://drive.google.com/file/d/1Ht_Bj4AKY5nyfDZq7lcZ42dh9Qd_ib8F/view?usp=sharing" style="color:greenyellow">view certificate</a></li>
+                <li>Basics Of Python - Infosys - <a href="https://drive.google.com/file/d/1_R7hWcr5UTwsfQ6B5QbGpuvE_KMMkSTK/view?usp=sharing" style="color:greenyellow">view certificate</a></li>
+                <li>Problem Solving Through Programming In C - NPTEL - <a href="https://drive.google.com/file/d/1mE-e3dGz4_Nnowj6fdfwOnjiiQig_xY8/view?usp=sharing" style="color:greenyellow">view certificate</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="c1">
+            <h1>Connect</h1>
             <p>
                 <a href="mailto:namburumeghana2020@gmail.com">
                     <img src="email.png" width="30" height="30"/>
@@ -84,15 +90,19 @@
                 </a>
 
                 <a href="https://www.linkedin.com/in/meghana-namburu-416085215" style="margin-left: 10;">
-                    <img src="https://th.bing.com/th/id/R.f9ece8737ee991743d9cc930937dd150?rik=tzw%2b%2f58c6gzgjw&riu=http%3a%2f%2fjoshmccormack.com%2fwp-content%2fuploads%2fsites%2f3%2f2014%2f03%2ftransparent-Linkedin-logo-icon.png&ehk=Z6qq60L%2fXAGqZdU0uv1Z%2fG1p8Kebs0cgDnviXA1NOVs%3d&risl=&pid=ImgRaw&r=0" width="30" height="30"/>
+                    <img src="linkedin.png" width="30" height="30"/>
                 </a>
 
                 <a href="https://github.com/MeghanaNamburu" style="margin-left: 10;">
-                    <img src="https://th.bing.com/th/id/OIP.kjCUP06WDUMR88i5wo2SqwAAAA?pid=ImgDet&rs=1" width="30" height="30"/>
+                    <img src="github.jpeg" width="30" height="30"/>
+                </a>
+
+                <a href="https://www.hackerrank.com/namburumeghana21" style="margin-left: 10;">
+                    <img src="hackerrank.webp" width="30" height="30"/>
                 </a>
             </p><br>
-            </div>
         </div>
+    </section>
 
-    </body>
+</body>
 </html>
